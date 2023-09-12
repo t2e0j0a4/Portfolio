@@ -44,6 +44,12 @@ p {
   font-size: 18px;
 }
 
+img {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 @media all and (max-width : 500px) {
   
   body {
